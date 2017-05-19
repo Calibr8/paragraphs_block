@@ -1,0 +1,23 @@
+uuid: 5f89325e-12f1-4063-9ac9-1dbcb73b5f11
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_align
+    - paragraphs.paragraphs_type.block
+  module:
+    - options
+id: paragraph.block.field_title_align
+field_name: field_title_align
+entity_type: paragraph
+bundle: block
+label: 'Title align'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

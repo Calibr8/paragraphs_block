@@ -1,0 +1,21 @@
+uuid: 586e2247-2df9-4563-812b-8e7d38c3640f
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_border
+    - paragraphs.paragraphs_type.block
+  module:
+    - options
+id: paragraph.block.field_border
+field_name: field_border
+entity_type: paragraph
+bundle: block
+label: Border
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

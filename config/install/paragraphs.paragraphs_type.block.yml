@@ -1,0 +1,7 @@
+uuid: 26ce4f69-1fc1-4e27-8758-ce2c9fb3c353
+langcode: nl
+status: true
+dependencies: {  }
+id: block
+label: Block
+behavior_plugins: {  }

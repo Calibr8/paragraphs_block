@@ -1,0 +1,23 @@
+uuid: 5123ea38-8aeb-4576-a92c-2429c0f16091
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subtitle_style
+    - paragraphs.paragraphs_type.block
+  module:
+    - options
+id: paragraph.block.field_subtitle_style
+field_name: field_subtitle_style
+entity_type: paragraph
+bundle: block
+label: Subtitle-style
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: h3
+default_value_callback: ''
+settings: {  }
+field_type: list_string
