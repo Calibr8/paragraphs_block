@@ -13,6 +13,6 @@
         }
     ],
     "require": {
-        "drupal/block_field": "*",
+        "drupal/block_field": "*"
     }
 }
